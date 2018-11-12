@@ -15,7 +15,7 @@ class Webchallenge_model extends Model
 
     function getdata($id)
     {
-        $sql = "SELECT * FROM web_challenge WHERE id>$id order by id desc limit 1,100";
+        $sql = "SELECT * FROM web_challenge WHERE id>=$id order by id desc limit 0,100";
         $result = $this->conn->query($sql);
         $data = [];
         if ($result->num_rows > 0)

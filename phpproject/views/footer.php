@@ -135,7 +135,7 @@
                 });
             }, 1000);
         };
-        update_data();
+//        update_data();
     });
 
     function openmodal(title, content){

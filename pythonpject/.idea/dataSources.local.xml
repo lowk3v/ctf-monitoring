@@ -10,5 +10,13 @@
       <auth-required>false</auth-required>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
+    <data-source name="ctf_monitor" uuid="14ef5b1e-0a29-4da1-b58d-0c1f42344988">
+      <database-info product="SQLite" version="3.23.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.23.1" family="SQLITE" exact-version="3.23.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <auth-required>false</auth-required>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
   </component>
 </project>

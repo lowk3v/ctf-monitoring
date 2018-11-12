@@ -6,7 +6,18 @@ from glob import glob
 from time import sleep
 import pymysql
 import json
+from paramiko import SSHClient, Transport, AutoAddPolicy, SFTPClient
+from scp import SCPClient
+import threading
+import os
 
+SSH = {
+	'host': '10.0.0.12',
+	'port': 22,
+	'user': 'root',
+	'pass': 'toor',
+	'path_log': '/root/ex50/logs'
+}
 DB = {
 	'host': '127.0.0.1',
 	'user': 'root',
@@ -14,7 +25,8 @@ DB = {
 	'database': 'ctf_monitor'
 }
 LOG_PATH = [
-	"resource/web1_*.log"
+	"resource/web1_*.log",
+	"resource/log_*.txt"
 ]
 NEW_LOG = []
 try:
@@ -42,6 +54,7 @@ def insert(content):
 	value = (content['time'], content['status'], content['method'], content['rich_data'], content['raw_data'], content['response'])
 	con.cursor().execute(sql, value)
 	con.commit()
+	print('[+] Inserted to database')
 
 def rfile(filename):
 	log = open(filename, 'rb')
@@ -93,7 +106,26 @@ def load_log():
 # 	store list log
 	open('old.log', 'w').write(json.dumps(OLD_LOG))
 
-if __name__ == '__main__':
+def download_log():
+	global SSH, OLD_LOG
+	ssh = SSHClient()
+	ssh.set_missing_host_key_policy(AutoAddPolicy())
+	ssh.connect(SSH['host'], username=SSH['user'], password=SSH['pass'])
+	while True:
+		stdin, stdout, stderr = ssh.exec_command('ls ' + SSH['path_log'])
+		filelist = stdout.read().splitlines()
+		for filename in filelist:
+			filename = ''.join([chr(c) for c in filename])
+			if filename in [os.path.basename(i) for i in OLD_LOG]:
+				continue
+			transport = ssh.get_transport()
+			sftp = SFTPClient.from_transport(transport)
+			sftp.get(SSH['path_log'] + '/' + filename, './resource/' + filename)
+			print('[+] Copied ' + filename)
+		sleep(5)
+
+def main():
+	global con
 	con = connect()
 	while True:
 		load_log()
@@ -101,3 +133,7 @@ if __name__ == '__main__':
 			for pkg in rfile(logfile):
 				parse_data(pkg)
 		sleep(5)
+
+if __name__ == '__main__':
+	threading.Thread(target=download_log).start()
+	threading.Thread(target=main).start()
