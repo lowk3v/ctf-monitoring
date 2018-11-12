@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcbeac5a-f65a-485a-9036-b8e25bea595f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/datlp1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phpproject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../phpproject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phpproject/models/Webchallenge_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../phpproject/models/Webchallenge_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phpproject/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../phpproject/views/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ctf_monitor.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.log" beforeDir="false" afterPath="$PROJECT_DIR$/old.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parselog.py" beforeDir="false" afterPath="$PROJECT_DIR$/parselog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,11 +120,12 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="py" value="1081" />
+          <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="39" />
           <entry key="Python" value="1081" />
         </counts>
       </usages-collector>
@@ -163,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../ex50/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="58" column="88" lean-forward="true" selection-start-line="58" selection-start-column="88" selection-end-line="58" selection-end-column="88" />
+            <state relative-caret-position="63">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#732#1269#0" />
               </folding>
@@ -192,6 +181,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Kev &lt;davidkevinit@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -399,6 +393,14 @@
       <option name="presentableId" value="Default" />
       <updated>1541751524084</updated>
     </task>
+    <task id="LOCAL-00001" summary="add function download via ssh">
+      <created>1542016804972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542016804972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -434,6 +436,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add function download via ssh" />
+    <option name="LAST_COMMIT_MESSAGE" value="add function download via ssh" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -522,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../ex50/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="58" column="88" lean-forward="true" selection-start-line="58" selection-start-column="88" selection-end-line="58" selection-end-column="88" />
+        <state relative-caret-position="63">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#732#1269#0" />
           </folding>
