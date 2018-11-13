@@ -36,7 +36,7 @@
                             }
                             else if (k == 'rich_data')
                             {
-                                html+= `<td><textarea readonly>${row[k]}</textarea></td>`
+                                html+= "<td><textarea readonly>"+ htmlentity(row['rich_data']) +"</textarea></td>"
                             }else
                             {
                                 html+= `<td><p>${row[k]}</p></td>`
@@ -138,8 +138,14 @@
 //        update_data();
     });
 
-    function openmodal(title, content){
-        $('#modaltitle').html(title);
-        $('#modalcontent').html(atob(content));
+    function htmlentity(string){
+        return string.replace(/[\u00A0-\u9999<>\&]/gim, function(i) {
+            return '&#'+i.charCodeAt(0)+';';
+        });
     }
+    function openmodal(title, content){
+        $('#modaltitle').text(title);
+        $('#modalcontent').text(atob(content));
+    }
+
 </script>

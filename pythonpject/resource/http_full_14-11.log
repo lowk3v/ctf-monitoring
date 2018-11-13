@@ -1,0 +1,1135 @@
+===========[192.168.124.1] - [f256916343df2f96c2ae35963e838f76]=============
+[11:11:11] GET /meepwn/ HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Pragma: no-cache
+Host: 192.168.124.142
+Connection: Close
+Accept-Encoding: gzip,deflate
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [fb291593e2507f9067edbff1136dbe6d]=============
+[11:11:11] GET /meepwn/ HTTP/1.1
+Host: 192.168.124.142
+Connection: Close
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [5f8e0e0917aaff536ea7818829f3dc05]=============
+[11:11:11] GET /meepwn/ HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [6cd720f9f82ffeea2474ae1da4af6d2c]=============
+[11:11:11] GET /meepwn/?search=<script>alert(1)</script> HTTP/1.1
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [5536ede26d64e136b97fe66af83a8752]=============
+[11:11:11] GET /meepwn/?search=%3Cscript%3Ealert(1)%3C%2Fscript%3E HTTP/1.1
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [4d2881ad11615ba0e3c936c6326e33df]=============
+[11:11:11] GET /meepwn/?param=cmd.exe HTTP/1.1
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [050cdc3dc3a6a15734e262aaa308d8d5]=============
+[11:11:11] GET /meepwn/?param=-1+UNION+SELECT+GROUP_CONCAT(table_name)+FROM+information_schema.tables HTTP/1.1
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [ae42c81f53bf569c7cca43ee8c341947]=============
+[11:11:11] GET /meepwn/?page=../../../../../../../../../etc/passwd%00.jpg HTTP/1.1
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [19c450c8e36843d91784b92d4099a948]=============
+[11:11:11] GET /meepwn/?page=1 HTTP/1.1
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [653af688b621226d247720303eeec633]=============
+[11:11:11] GET /meepwn/index.php?app=core&module=global&section=register HTTP/1.1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [8f926c5e3943ca1fc297d8e5e27d862e]=============
+[11:11:11] GET /meepwn/index.php HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://192.168.124.142/meepwn/
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [a4997c5c8578f9676c64ec557b070242]=============
+POST /meepwn/index.php HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://192.168.124.142/meepwn/
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+save=1&secret=1
+------Response-----
+<br />
+<b>Notice</b>:  Undefined index: secret in <b>/var/www/html/meepwn/index.php</b> on line <b>17</b><br />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+<div class="alert alert-success">Success save your treasures, If your want to [11:11:11] GET it, tell me <a href="?mytresure">Give me my treasures</a>
+</div>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [879f142474dc10759c022448e46366ac]=============
+[11:11:11] GET /meepwn/?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://192.168.124.142/meepwn/
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+	<br />
+<b>Warning</b>:  exif_ima[11:11:11] GEType(/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php): failed to open stream: No such file or directory in <b>/var/www/html/meepwn/index.php</b> on line <b>55</b><br />
+	<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+<br />
+<b>Warning</b>:  exif_ima[11:11:11] GEType(/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php): failed to open stream: No such file or directory in <b>/var/www/html/meepwn/index.php</b> on line <b>55</b><br />
+
+------End-Response-----
+
+===========[192.168.124.1] - [32f7d2dff23045108985c605d393bc57]=============
+[11:11:11] GET /meepwn/index.php?title=Special:UserLogin&returnto=Main+Page&type=signup HTTP/1.1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [9df409792ff5f9e6eddef46a016def3e]=============
+[11:11:11] GET /meepwn/index.php?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://192.168.124.142/meepwn/index.php
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+	<br />
+<b>Warning</b>:  exif_ima[11:11:11] GEType(/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php): failed to open stream: No such file or directory in <b>/var/www/html/meepwn/index.php</b> on line <b>55</b><br />
+	<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+<br />
+<b>Warning</b>:  exif_ima[11:11:11] GEType(/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php): failed to open stream: No such file or directory in <b>/var/www/html/meepwn/index.php</b> on line <b>55</b><br />
+
+------End-Response-----
+
+===========[192.168.124.1] - [15ed0fb465b2c9045c2d5d9950b24790]=============
+[11:11:11] GET /meepwn/index.php?mytresure HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://192.168.124.142/meepwn/index.php
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Cookie: PHPSESSID=d3jpg1grjetdnth4gh2fv6oer1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+Your Treasure but I encrypt to protect it.
+<textarea class="form-control" rows="5">eWVkfmR+fmhuf2h5ZmgbEQ8AHWR+fmhuf2h5Zmh0eWVkWXg=</textarea>
+<div class="alert alert-warning">Your original treasure stored at resources/64a9f2f932d15b2376375d5b1ff07433af308afc.txt </div>
+<form method="[11:11:11] GET" action="index.php" class="form-group">
+<input type="text" name="friendtresure" placeholder="If you want to see other treasures, you need to know their secret link like resources/[id] (except .txt)" class="form-control">
+<input type="submit" value="Show">
+</form>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----
+
+===========[192.168.124.1] - [b265f4435ca297c5726919692891b3b5]=============
+[11:11:11] GET /meepwn/index.php?_a=register HTTP/1.1
+Host: 192.168.124.142
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+
+------Response-----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DD 's Treasure</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron">
+	<h1>Map</h1>
+
+		<br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/sabaody.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=images/rafel.png')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+	</svg>
+	<svg width="100" height="100" onclick="window.open('?way=/var/www/html/e9941d1621bdf00ef6a17c1e5176c1bcbb966b71/flag.php')">
+   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="red" />
+	</svg><br>
+	<svg width="100" height="100" onclick="window.open('?way=images/newworld.jpg')">
+   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="white" />
+	</svg>			</div>
+	<h1>New World</h1>
+    <p>Welcome to New World, You are in the way to become Pirate King, so this area is the place to save your Treasures </p>
+
+<form method="post" action="index.php" class="form-group">
+Secret:<input type="text" name="secret" placeholder="Set your secret" class="form-control">
+<br>Tresure:<input type="text" name="save" placeholder="Save your treasures" class="form-control">
+<input type="submit" value="Store">
+</form>
+<br>
+
+</body>
+</html>
+<!-- ?debug -->
+
+------End-Response-----

@@ -1,7 +1,7 @@
 #!/bin/python3
 
 from base64 import b64encode
-from re import findall
+from re import findall, split
 from glob import glob
 from time import sleep
 import pymysql
@@ -26,7 +26,8 @@ DB = {
 }
 LOG_PATH = [
 	"resource/web1_*.log",
-	"resource/log_*.txt"
+	"resource/log_*.txt",
+	"resource/http_full_*.log"
 ]
 NEW_LOG = []
 try:
@@ -60,14 +61,18 @@ def rfile(filename):
 	log = open(filename, 'rb')
 	req_package = ''
 	for line in log:
-		if '='*25 in line.decode():
+		if '='*64 in line.decode() or line.decode().startswith('==========='):
 			yield req_package
 			req_package = ''
 			continue
 		req_package += line.decode()
+	yield req_package
 
 def regex(pattern, string):
-	return ''.join(findall(pattern, string)).strip()
+	result = findall(pattern, string)
+	if len(result) > 0:
+		return result[0].strip()
+	return 'None'
 
 def parse_data(req_package):
 	global con
@@ -75,14 +80,15 @@ def parse_data(req_package):
 	time = regex('\[(\d+:\d+:\d+)\]', req_package)
 	method = regex(time + '\]\s([A-Z]+)\s', req_package)
 	status = regex('^Status: (.*)', req_package)
-	raw_data = req_package.split('>>>>')[0]
-	response = req_package.split('>>>>')[1]
-	rich_data = 'URL: %s\nCOOKIE: %s\nDATA: %s\nFILE: %s'\
-	% (regex(method + '\s(.*)', req_package), \
-	   regex('Cookie: (.*)', req_package), \
-	   regex('Data: (.*)', req_package), \
-	   regex('File: (.*)', req_package),\
-	)
+	url = regex(method + '\s(.*)', req_package)
+	host = regex('Host: (.*)', req_package)
+	cookie = regex('Cookie: (.*)', req_package)
+	data = regex('Data: (.*)', req_package)
+	file = regex('File: (.*)', req_package)
+	rich_data = f'URL: {url}\nHost: {host}\nCOOKIE: {cookie}\nDATA: {data}\nFILE: {file}'
+	raw_data = split('------Response-----|>>>>', req_package)[0]
+	response = split('------Response-----|>>>>', req_package)[1]
+
 	content = {
 		'time': time,
 		'method': method,
@@ -110,7 +116,10 @@ def download_log():
 	global SSH, OLD_LOG
 	ssh = SSHClient()
 	ssh.set_missing_host_key_policy(AutoAddPolicy())
-	ssh.connect(SSH['host'], username=SSH['user'], password=SSH['pass'])
+	try:
+		ssh.connect(SSH['host'], username=SSH['user'], password=SSH['pass'])
+	except:
+		return 'SSH fail'
 	while True:
 		stdin, stdout, stderr = ssh.exec_command('ls ' + SSH['path_log'])
 		filelist = stdout.read().splitlines()
