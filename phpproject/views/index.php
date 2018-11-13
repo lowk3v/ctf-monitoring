@@ -2,7 +2,7 @@
 <div class="wrapper">
     <div class="fresh-table full-screen-table toolbar-color-orange">
         <div class="toolbar">
-            <!--<button id="alertBtn" class="btn btn-default">Alert</button>-->
+            <button id="alertBtn" class="btn btn-default">Refresh</button>
         </div>
         <table id="fresh-table" class="table">
             <thead >

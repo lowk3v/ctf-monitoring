@@ -50,12 +50,12 @@
                     console.log(err);
                 }
             });
-        }();
+        }; getdata();
         window_height = $(window).height();
         table_height = window_height - 20;
         $table.bootstrapTable({
             toolbar: ".toolbar",
-            showRefresh: true,
+            showRefresh: false,
             search: false,
             showToggle: false,
             showColumns: false,
@@ -82,60 +82,15 @@
         $(window).resize(function () {
             $table.bootstrapTable('resetView');
         });
-        function update_data()
-        {
-            setTimeout(function()
-            {
-                try
-                {
-                    id = $('td p')[0].innerHTML;
-                }catch (e) {
-                    id = '-1'
-                    update_data()
-                }
-                console.log(id);
-                $.ajax({
-                    type: 'POST',
-                    dataType: 'json',
-                    url: 'index.php?controller=webchallenge&action=parselog',
-                    data: {'id': id}, // max current id
-                    success: function(data){
-                        data.sort(function(a, b){
-                            keyA = Number(a['id'])
-                            keyB = Number(b['id'])
-                            if (keyA > keyB) return -1;
-                            if (keyA < keyB) return 1;
-                            return 0;
-                        })
-                        data.forEach(function(row)
-                        {
-                            html = "<tr>"
-                            for (var k in row)
-                                if (k == 'raw_data')
-                                {
-                                    html += `<td><a href='' data-toggle="modal" data-target="#moredetail" onclick="openmodal('Raw Data', '${btoa(row['raw_data'])}')">See More</a></td>`
-                                }else if (k == 'response')
-                                {
-                                    html += `<td><a href='' data-toggle="modal" data-target="#moredetail" onclick="openmodal('Response', '${btoa(row['response'])}')">See More</a></td>`
-                                }
-                                else if (k == 'rich_data')
-                                {
-                                    html += `<td><textarea readonly>${row[k]}</textarea></td>`
-                                }else
-                                {
-                                    html += `<td><p>${row[k]}</p></td>`
-                                }
-                            html += "</tr>"
-                            $(html).insertBefore('table > tbody > tr:first');
-                        })
-                    },
-                    error: function(err){
-                        console.log(err);
-                    }
-                });
-            }, 1000);
-        };
-//        update_data();
+        $alertBtn.click(function () {
+            getdata();
+        });
+        refresh = function(){
+            setTimeout(function(){
+                getdata();
+                refresh();
+            }, 30000);
+        }; refresh();
     });
 
     function htmlentity(string){
