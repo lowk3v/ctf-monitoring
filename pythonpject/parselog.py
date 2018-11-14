@@ -6,17 +6,17 @@ from glob import glob
 from time import sleep
 import pymysql
 import json
-from paramiko import SSHClient, Transport, AutoAddPolicy, SFTPClient
-from scp import SCPClient
+from paramiko import SSHClient, AutoAddPolicy, SFTPClient
 import threading
 import os
+import hashlib
 
 SSH = {
 	'host': '10.0.0.12',
 	'port': 22,
 	'user': 'root',
 	'pass': 'toor',
-	'path_log': '/root/ex50/logs'
+	'path_log': '/root/ex50/archive_log'
 }
 DB = {
 	'host': '127.0.0.1',
@@ -25,11 +25,11 @@ DB = {
 	'database': 'ctf_monitor'
 }
 LOG_PATH = [
-	"resource/web1_*.log",
-	"resource/log_*.txt",
+	"resource/flask_full_*.txt",
 	"resource/http_full_*.log"
 ]
 NEW_LOG = []
+CRLF = '\r\n'
 try:
 	OLD_LOG = json.loads(open('old.log', 'r').read())
 except:
@@ -49,7 +49,7 @@ def connect():
 				PRIMARY KEY (id))")
 	return con
 
-def insert(content):
+def insertDB(content):
 	global con
 	sql = "INSERT INTO web_challenge(`time`, `status`, `method`, `rich_data`, `raw_data`, `response`) VALUES (%s, %s, %s, %s, %s, %s)"
 	value = (content['time'], content['status'], content['method'], content['rich_data'], content['raw_data'], content['response'])
@@ -61,11 +61,12 @@ def rfile(filename):
 	log = open(filename, 'rb')
 	req_package = ''
 	for line in log:
-		if '='*64 in line.decode() or line.decode().startswith('==========='):
+		line = line.decode().rstrip()
+		if '='*64 in line or line.startswith('==========='):
 			yield req_package
 			req_package = ''
 			continue
-		req_package += line.decode()
+		req_package += line + CRLF
 	yield req_package
 
 def regex(pattern, string):
@@ -75,8 +76,12 @@ def regex(pattern, string):
 	return 'None'
 
 def parse_data(req_package):
-	global con
+	global con, CRLF
 	if req_package.strip() == '': return
+
+	raw_request = split('------Response-----|>>>>', req_package)[0]
+	response = split('------Response-----|>>>>', req_package)[1]
+
 	time = regex('\[(\d+:\d+:\d+)\]', req_package)
 	method = regex(time + '\]\s([A-Z]+)\s', req_package)
 	status = regex('^Status: (.*)', req_package)
@@ -85,19 +90,24 @@ def parse_data(req_package):
 	cookie = regex('Cookie: (.*)', req_package)
 	data = regex('Data: (.*)', req_package)
 	file = regex('File: (.*)', req_package)
-	rich_data = f'URL: {url}\nHost: {host}\nCOOKIE: {cookie}\nDATA: {data}\nFILE: {file}'
-	raw_data = split('------Response-----|>>>>', req_package)[0]
-	response = split('------Response-----|>>>>', req_package)[1]
+	if method.upper() == 'POST':
+		post_data = raw_request.split(CRLF+CRLF)
+		if len(post_data) > 1:
+			if data == 'None':
+				data = post_data[1].strip()
+			else:
+				data += post_data[1].strip()
+	rich_data = f'URL: {url}\r\nHost: {host}\r\nCOOKIE: {cookie}\r\nDATA: {data}\r\nFILE: {file}'
 
 	content = {
 		'time': time,
 		'method': method,
 		'status': status,
-		'raw_data': b64encode(raw_data.encode()).decode(),
+		'raw_data': b64encode(raw_request.encode()).decode(),
 		'response': b64encode(response.encode()).decode(),
 		'rich_data': b64encode(rich_data.encode()).decode()
 	}
-	insert(content)
+	insertDB(content)
 
 def load_log():
 	global LOG_PATH, NEW_LOG, OLD_LOG
@@ -131,7 +141,6 @@ def download_log():
 			sftp = SFTPClient.from_transport(transport)
 			sftp.get(SSH['path_log'] + '/' + filename, './resource/' + filename)
 			print('[+] Copied ' + filename)
-		sleep(5)
 
 def main():
 	global con
@@ -141,7 +150,6 @@ def main():
 		for logfile in NEW_LOG:
 			for pkg in rfile(logfile):
 				parse_data(pkg)
-		sleep(5)
 
 if __name__ == '__main__':
 	threading.Thread(target=download_log).start()
