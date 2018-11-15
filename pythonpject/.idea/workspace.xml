@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcbeac5a-f65a-485a-9036-b8e25bea595f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../phpproject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../phpproject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../phpproject/full-screen-table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old.log" beforeDir="false" afterPath="$PROJECT_DIR$/old.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parselog.py" beforeDir="false" afterPath="$PROJECT_DIR$/parselog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/http_full_14-11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_43.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_44.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_45.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_46.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_47.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_48.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_49.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_50.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_51.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_52.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_53.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_54.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_55.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_56.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_57.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_58.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_03_59.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_00.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_04.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_05.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_06.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_07.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_08.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_09.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log_04_29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/web1_10_21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/web1_10_22.log" beforeDir="false" />
-    </list>
+    <list default="true" id="bcbeac5a-f65a-485a-9036-b8e25bea595f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,15 +108,15 @@
     <session id="413705345">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -212,37 +152,7 @@
     <favorites_list name="pythonpject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parselog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="155" column="35" selection-start-line="155" selection-start-column="35" selection-end-line="155" selection-end-column="35" />
-              <folding>
-                <element signature="e#16#44#0" expanded="true" />
-                <element signature="e#385#471#0" />
-                <element signature="e#684#1121#0" />
-                <element signature="e#818#1108#0" />
-                <element signature="e#1147#1501#0" />
-                <element signature="e#1525#1763#0" />
-                <element signature="e#1794#1890#0" />
-                <element signature="e#1922#3010#0" />
-                <element signature="e#2499#2660#0" />
-                <element signature="e#2568#2660#0" />
-                <element signature="e#2768#2991#0" />
-                <element signature="e#3029#3323#0" />
-                <element signature="e#4025#4165#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old.log">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -530,7 +440,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4947589" visible="true" weight="0.14232409" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4947589" visible="true" weight="0.14392324" />
       <window_info id="Structure" order="1" sideWeight="0.5052411" side_tool="true" weight="0.13486141" />
       <window_info id="Favorites" order="2" sideWeight="0.501046" side_tool="true" weight="0.1315229" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -652,13 +562,7 @@
     <entry file="file://$PROJECT_DIR$/resource/log_04_26.txt" />
     <entry file="file://$PROJECT_DIR$/resource/log_03_51.txt" />
     <entry file="file://$PROJECT_DIR$/resource/log_03_39.txt" />
-    <entry file="file://$PROJECT_DIR$/resource/http_full_14-11.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="711" column="9" selection-start-line="711" selection-start-column="9" selection-end-line="711" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/http_full_14-11.log" />
     <entry file="file://$PROJECT_DIR$/../../ex50/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -673,48 +577,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_03_24.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_59.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_58.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_57.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_56.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_55.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_20.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_49.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_50.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_51.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_03_30.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_03_29.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/flask_mini_03_26.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_03_24.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_59.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_58.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_57.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_56.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_55.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_20.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_49.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_50.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_02_51.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_03_30.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_03_29.log" />
+    <entry file="file://$PROJECT_DIR$/resource/flask_mini_03_26.log" />
     <entry file="file://$PROJECT_DIR$/parselog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -736,6 +611,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
