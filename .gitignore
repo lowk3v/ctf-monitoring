@@ -1,3 +1,6 @@
-phpproject/.idea/*
-pythonpject/.idea/*
-pythonpject/__pycache__/*
+phpproject/.idea/
+pythonpject/.idea/
+pythonpject/*.pyc
+pythonpject/__pycache__/
+autosubmit/__pycache__/
+autosubmit/*.pyc

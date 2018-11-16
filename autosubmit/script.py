@@ -1,8 +1,11 @@
 import requests
 import re
+import sys
 from glob import glob
 from time import sleep
 from subprocess import Popen, PIPE
+
+VERSION = sys.version_info.major
 
 username = 'ACT.Warriors'
 password = 'WGVaR8ym'
@@ -58,7 +61,18 @@ def login():
 def submit(req, flag):
 	data_submit['flag'] = flag
 	res = req.post(url_submit, data=data_submit, proxies=proxy, headers=header)
-	print(flag, res.text, sep=': ')
+	print(flag + ': ' + res.text)
+
+
+def submit_flag(list_flag, time_sec=0):
+	if type(list_flag) == type(''):
+		list_flag = [list_flag]
+	req = login()
+	for flag in list_flag:
+		flag = flag.strip()
+		if flag == '': continue
+		submit(req, flag)
+		sleep(time_sec)
 
 if __name__ == '__main__':
 	list_flag = get_flag()
